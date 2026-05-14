@@ -7,7 +7,7 @@ function App() {
     const nav = document.getElementById('navbar')
 
     if (!nav) {
-      return undefined
+      return
     }
 
     const onScroll = () => {
